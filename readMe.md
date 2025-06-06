@@ -15,5 +15,5 @@ Overall, this will be a lesson to practice or flex your CSS skills.
 - [x] In the css folder, create reset.css and style.css
 - [x] In the root level of your project, create a file named .env (we will be using this soon)
 - [x] Download the mockup and place it in the root level of your project and name it mockup.jpg
-- [] Write your CSS to match the mockup below.
-- [] When you're finished, push your changes to GitHub and submit the link at the end of the lesson.
+- [x] Write your CSS to match the mockup below.
+- [x] When you're finished, push your changes to GitHub and submit the link at the end of the lesson.
