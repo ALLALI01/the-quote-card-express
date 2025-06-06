@@ -1,0 +1,66 @@
+body {
+    color: white;
+    background-image: linear-gradient(to right, #155055, #CCFDFF);
+    background-clip: text;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-img {
+    background-image: url("https://de.web.img3.acsta.net/videothumbnails/20/04/30/20/00/5880835.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 85vh;
+    width: 85vw;
+    border: 2px solid white;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.quote-text {
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.author-text {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.quote-container::before {
+    font-family: "Arial Black", "Impact", "sans-serif";
+    font-weight: bold;
+    content: "“";
+    font-size: 4rem;
+    display: block;
+    text-align: left;
+    width: 85%;
+}
+
+.quote-container::after {
+    font-family: "Arial Black", "Impact", "sans-serif";
+    font-weight: bold;
+    content: "”";
+    font-size: 4rem;
+    display: block;
+    text-align: right;
+    width: 85%;
+    margin-top: 50px;
+}
