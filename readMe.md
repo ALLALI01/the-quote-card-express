@@ -17,3 +17,12 @@ Overall, this will be a lesson to practice or flex your CSS skills.
 - [x] Download the mockup and place it in the root level of your project and name it mockup.jpg
 - [x] Write your CSS to match the mockup below.
 - [x] When you're finished, push your changes to GitHub and submit the link at the end of the lesson.
+
+# 🔭 The Quote Card Express: Part 3
+
+## This Time on the Quote Card Express
+Now that you have your quote card implemented, we are going to take on two tasks:
+
+- [x] Update our card so that it loops through a series of quotes using setInterval and setTimeout.
+- [x] We are also going to install our first developer dependency in our project!
+- [x] Most importantly, we will make our callout to the Unsplash API
